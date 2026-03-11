@@ -1,0 +1,57 @@
+{
+  "application_id": "LOAN-2026-00142",
+  "applicant": {
+    "full_name": "Sarah J. Mitchell",
+    "date_of_birth": "1988-03-15",
+    "ssn_last_four": "4829",
+    "email": "sarah.mitchell@email.com",
+    "phone": "555-0142",
+    "address": {
+      "street": "742 Evergreen Terrace",
+      "city": "Springfield",
+      "state": "IL",
+      "zip": "62704"
+    }
+  },
+  "employment": {
+    "employer": "TechNova Solutions Inc.",
+    "position": "Senior Software Engineer",
+    "years_employed": 4.5,
+    "annual_salary": 125000,
+    "employment_type": "Full-Time"
+  },
+  "financial_profile": {
+    "credit_score": 742,
+    "monthly_debt_payments": 1850,
+    "monthly_housing_cost": 1400,
+    "checking_account_balance": 18500,
+    "savings_account_balance": 45000,
+    "existing_loans": [
+      {
+        "type": "Auto Loan",
+        "remaining_balance": 12000,
+        "monthly_payment": 450
+      },
+      {
+        "type": "Student Loan",
+        "remaining_balance": 28000,
+        "monthly_payment": 350
+      }
+    ],
+    "bankruptcies": 0,
+    "late_payments_last_24_months": 1
+  },
+  "loan_request": {
+    "loan_amount": 35000,
+    "loan_purpose": "Home Improvement",
+    "requested_term_months": 60,
+    "preferred_rate_type": "Fixed"
+  },
+  "documents_submitted": [
+    "Government-issued Photo ID (Driver's License)",
+    "Last 3 months pay stubs",
+    "W-2 forms (2024, 2025)",
+    "Bank statements (last 3 months)",
+    "Employment verification letter"
+  ]
+}
