@@ -29,8 +29,14 @@ class LoadLoanApplicationTool(BaseTool):
         try:
             with open(file_path, "r") as f:
                 data = json.load(f)
-            if data.get("application_id") == application_id:
-                return json.dumps(data, indent=2)
+            # data may be a single object or a list
+            if isinstance(data, dict):
+                if data.get("application_id") == application_id:
+                    return json.dumps(data, indent=2)
+            elif isinstance(data, list):
+                for item in data:
+                    if item.get("application_id") == application_id:
+                        return json.dumps(item, indent=2)
             return f"Application {application_id} not found."
         except FileNotFoundError:
             return f"Data file not found at {file_path}"

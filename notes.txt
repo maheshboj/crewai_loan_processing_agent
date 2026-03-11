@@ -1,0 +1,2 @@
+prompt for front end:
+please create a streamlit front end which can build or add records from user. the front end should be desinged to fetch all the required data to build a json record like this and append to the end of this file every time

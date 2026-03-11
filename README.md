@@ -37,6 +37,24 @@ $ crewai run
 
 This command initializes the loan_processing_crew Crew, assembling the agents and assigning them tasks as defined in your configuration.
 
+### Streamlit Front End (Optional)
+
+A simple Streamlit app is provided to manually build and append loan applications to the synthetic data store. It collects the same fields used by the agents and writes new records to `synthetic_data/loan_applications.json`.
+
+Install Streamlit if you haven’t already:
+
+```bash
+$ pip install streamlit
+```
+
+Launch the UI with:
+
+```bash
+$ streamlit run streamlit_app.py
+```
+
+Fill out the form and click **Submit Application**; each submission is appended to the JSON file as a new array element.
+
 This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
 
 ## Understanding Your Crew

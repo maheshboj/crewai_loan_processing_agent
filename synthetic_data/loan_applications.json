@@ -1,57 +1,341 @@
-{
-  "application_id": "LOAN-2026-00142",
-  "applicant": {
-    "full_name": "Sarah J. Mitchell",
-    "date_of_birth": "1988-03-15",
-    "ssn_last_four": "4829",
-    "email": "sarah.mitchell@email.com",
-    "phone": "555-0142",
-    "address": {
-      "street": "742 Evergreen Terrace",
-      "city": "Springfield",
-      "state": "IL",
-      "zip": "62704"
-    }
-  },
-  "employment": {
-    "employer": "TechNova Solutions Inc.",
-    "position": "Senior Software Engineer",
-    "years_employed": 4.5,
-    "annual_salary": 125000,
-    "employment_type": "Full-Time"
-  },
-  "financial_profile": {
-    "credit_score": 742,
-    "monthly_debt_payments": 1850,
-    "monthly_housing_cost": 1400,
-    "checking_account_balance": 18500,
-    "savings_account_balance": 45000,
-    "existing_loans": [
-      {
-        "type": "Auto Loan",
-        "remaining_balance": 12000,
-        "monthly_payment": 450
-      },
-      {
-        "type": "Student Loan",
-        "remaining_balance": 28000,
-        "monthly_payment": 350
+[
+  {
+    "application_id": "LOAN-2026-00142",
+    "applicant": {
+      "full_name": "Sarah J. Mitchell",
+      "date_of_birth": "1988-03-15",
+      "ssn_last_four": "4829",
+      "email": "sarah.mitchell@email.com",
+      "phone": "555-0142",
+      "address": {
+        "street": "742 Evergreen Terrace",
+        "city": "Springfield",
+        "state": "IL",
+        "zip": "62704"
       }
-    ],
-    "bankruptcies": 0,
-    "late_payments_last_24_months": 1
+    },
+    "employment": {
+      "employer": "TechNova Solutions Inc.",
+      "position": "Senior Software Engineer",
+      "years_employed": 4.5,
+      "annual_salary": 125000,
+      "employment_type": "Full-Time"
+    },
+    "financial_profile": {
+      "credit_score": 742,
+      "monthly_debt_payments": 1850,
+      "monthly_housing_cost": 1400,
+      "checking_account_balance": 18500,
+      "savings_account_balance": 45000,
+      "existing_loans": [
+        {
+          "type": "Auto Loan",
+          "remaining_balance": 12000,
+          "monthly_payment": 450
+        },
+        {
+          "type": "Student Loan",
+          "remaining_balance": 28000,
+          "monthly_payment": 350
+        }
+      ],
+      "bankruptcies": 0,
+      "late_payments_last_24_months": 1
+    },
+    "loan_request": {
+      "loan_amount": 35000,
+      "loan_purpose": "Home Improvement",
+      "requested_term_months": 60,
+      "preferred_rate_type": "Fixed"
+    },
+    "documents_submitted": [
+      "Government-issued Photo ID (Driver's License)",
+      "Last 3 months pay stubs",
+      "W-2 forms (2024, 2025)",
+      "Bank statements (last 3 months)",
+      "Employment verification letter"
+    ]
   },
-  "loan_request": {
-    "loan_amount": 35000,
-    "loan_purpose": "Home Improvement",
-    "requested_term_months": 60,
-    "preferred_rate_type": "Fixed"
+  {
+    "application_id": "LOAN-2026-00143",
+    "applicant": {
+      "full_name": "Carlos M. Ramirez",
+      "date_of_birth": "1990-07-22",
+      "ssn_last_four": "9931",
+      "email": "carlos.ramirez@email.com",
+      "phone": "555-0931",
+      "address": {
+        "street": "128 Maple Street",
+        "city": "El Paso",
+        "state": "TX",
+        "zip": "79901"
+      }
+    },
+    "employment": {
+      "employer": "RetailCo",
+      "position": "Sales Associate",
+      "years_employed": 1.2,
+      "annual_salary": 32000,
+      "employment_type": "Full-Time"
+    },
+    "financial_profile": {
+      "credit_score": 610,
+      "monthly_debt_payments": 1200,
+      "monthly_housing_cost": 950,
+      "checking_account_balance": 1200,
+      "savings_account_balance": 300,
+      "existing_loans": [
+        {
+          "type": "Credit Card",
+          "remaining_balance": 5000,
+          "monthly_payment": 150
+        }
+      ],
+      "bankruptcies": 0,
+      "late_payments_last_24_months": 3
+    },
+    "loan_request": {
+      "loan_amount": 15000,
+      "loan_purpose": "Debt Consolidation",
+      "requested_term_months": 48,
+      "preferred_rate_type": "Variable"
+    },
+    "documents_submitted": [
+      "Photo ID",
+      "Last 2 months pay stubs",
+      "Bank statements"
+    ]
   },
-  "documents_submitted": [
-    "Government-issued Photo ID (Driver's License)",
-    "Last 3 months pay stubs",
-    "W-2 forms (2024, 2025)",
-    "Bank statements (last 3 months)",
-    "Employment verification letter"
-  ]
-}
+  {
+    "application_id": "LOAN-2026-00144",
+    "applicant": {
+      "full_name": "Emily R. Stone",
+      "date_of_birth": "1974-11-05",
+      "ssn_last_four": "4570",
+      "email": "emily.stone@email.com",
+      "phone": "555-4570",
+      "address": {
+        "street": "9 Pine Terrace",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97201"
+      }
+    },
+    "employment": {
+      "employer": "Stone Design",
+      "position": "Owner",
+      "years_employed": 15,
+      "annual_salary": 85000,
+      "employment_type": "Self-Employed"
+    },
+    "financial_profile": {
+      "credit_score": 690,
+      "monthly_debt_payments": 600,
+      "monthly_housing_cost": 1200,
+      "checking_account_balance": 8000,
+      "savings_account_balance": 20000,
+      "existing_loans": [],
+      "bankruptcies": 0,
+      "late_payments_last_24_months": 0
+    },
+    "loan_request": {
+      "loan_amount": 50000,
+      "loan_purpose": "Business Expansion",
+      "requested_term_months": 72,
+      "preferred_rate_type": "Fixed"
+    },
+    "documents_submitted": [
+      "Photo ID",
+      "Last 2 years tax returns",
+      "Profit and loss statements",
+      "Bank statements"
+    ]
+  },
+  {
+    "application_id": "LOAN-2026-00145",
+    "applicant": {
+      "full_name": "Jason T. Lee",
+      "date_of_birth": "2003-02-18",
+      "ssn_last_four": "7765",
+      "email": "jason.lee@email.com",
+      "phone": "555-7765",
+      "address": {
+        "street": "310 College Ave",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "43215"
+      }
+    },
+    "employment": {
+      "employer": "Part-Time Student",
+      "position": "Library Assistant",
+      "years_employed": 0.5,
+      "annual_salary": 12000,
+      "employment_type": "Part-Time"
+    },
+    "financial_profile": {
+      "credit_score": 580,
+      "monthly_debt_payments": 0,
+      "monthly_housing_cost": 450,
+      "checking_account_balance": 300,
+      "savings_account_balance": 50,
+      "existing_loans": [],
+      "bankruptcies": 0,
+      "late_payments_last_24_months": 0
+    },
+    "loan_request": {
+      "loan_amount": 5000,
+      "loan_purpose": "New Laptop",
+      "requested_term_months": 24,
+      "preferred_rate_type": "Variable"
+    },
+    "documents_submitted": [
+      "Photo ID",
+      "Proof of enrollment",
+      "Bank statement"
+    ]
+  },
+  {
+    "application_id": "LOAN-2026-00146",
+    "applicant": {
+      "full_name": "Monica V. Patel",
+      "date_of_birth": "1982-06-09",
+      "ssn_last_four": "2218",
+      "email": "monica.patel@email.com",
+      "phone": "555-2218",
+      "address": {
+        "street": "555 Ocean Drive",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33139"
+      }
+    },
+    "employment": {
+      "employer": "HealthPlus Clinics",
+      "position": "Registered Nurse",
+      "years_employed": 2.3,
+      "annual_salary": 68000,
+      "employment_type": "Full-Time"
+    },
+    "financial_profile": {
+      "credit_score": 640,
+      "monthly_debt_payments": 900,
+      "monthly_housing_cost": 1800,
+      "checking_account_balance": 2500,
+      "savings_account_balance": 5000,
+      "existing_loans": [
+        {
+          "type": "Personal Loan",
+          "remaining_balance": 8000,
+          "monthly_payment": 300
+        }
+      ],
+      "bankruptcies": 1,
+      "late_payments_last_24_months": 2
+    },
+    "loan_request": {
+      "loan_amount": 20000,
+      "loan_purpose": "Medical Bills",
+      "requested_term_months": 36,
+      "preferred_rate_type": "Fixed"
+    },
+    "documents_submitted": [
+      "Photo ID",
+      "Last 3 months pay stubs",
+      "Bank statements",
+      "Discharge paperwork (bankruptcy)"
+    ]
+  },
+  {
+    "application_id": "LOAN-2026-00147",
+    "applicant": {
+      "full_name": "Raj K. Singh",
+      "date_of_birth": "1968-12-01",
+      "ssn_last_four": "3344",
+      "email": "raj.singh@email.com",
+      "phone": "555-3344",
+      "address": {
+        "street": "200 Maple Ave",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98101"
+      }
+    },
+    "employment": {
+      "employer": "City Library",
+      "position": "Head Librarian",
+      "years_employed": 10,
+      "annual_salary": 54000,
+      "employment_type": "Full-Time"
+    },
+    "financial_profile": {
+      "credit_score": 780,
+      "monthly_debt_payments": 500,
+      "monthly_housing_cost": 2200,
+      "checking_account_balance": 12000,
+      "savings_account_balance": 30000,
+      "existing_loans": [
+        {
+          "type": "Mortgage",
+          "remaining_balance": 150000,
+          "monthly_payment": 1800
+        }
+      ],
+      "bankruptcies": 0,
+      "late_payments_last_24_months": 0
+    },
+    "loan_request": {
+      "loan_amount": 10000,
+      "loan_purpose": "Vacation",
+      "requested_term_months": 12,
+      "preferred_rate_type": "Fixed"
+    },
+    "documents_submitted": [
+      "Photo ID",
+      "Proof of income",
+      "Bank statements"
+    ]
+  },
+  {
+    "application_id": "LOAN-2026-00148",
+    "applicant": {
+      "full_name": "mahesh bojanala",
+      "date_of_birth": "2016-03-11",
+      "ssn_last_four": "1234",
+      "email": "mahesh.dummy@gmail.com",
+      "phone": "4213698740",
+      "address": {
+        "street": "krpuram",
+        "city": "bangalore",
+        "state": "karnataka",
+        "zip": "560036"
+      }
+    },
+    "employment": {
+      "employer": "dell",
+      "position": "sse",
+      "years_employed": 18.0,
+      "annual_salary": 500000.0,
+      "employment_type": "Full-Time"
+    },
+    "financial_profile": {
+      "credit_score": 750,
+      "monthly_debt_payments": 10000.0,
+      "monthly_housing_cost": 2000.0,
+      "checking_account_balance": 50000000.0,
+      "savings_account_balance": 2000000.0,
+      "existing_loans": [],
+      "bankruptcies": 0,
+      "late_payments_last_24_months": 0
+    },
+    "loan_request": {
+      "loan_amount": 20000.0,
+      "loan_purpose": "renovation",
+      "requested_term_months": 30,
+      "preferred_rate_type": "Fixed"
+    },
+    "documents_submitted": [
+      "Photo ID"
+    ]
+  }
+]
